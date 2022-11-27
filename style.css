@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+main{
+    background-color: hsl(185, 75%, 39%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/bg-pattern-top.svg),url(images/bg-pattern-bottom.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50% 50%,50% 50%;
+}
+section{
+    width: clamp(300px, 30%, 400px);
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    background-image: url(images/bg-pattern-card.svg);
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+section img{
+    width: clamp(100px, 25%, 120px);
+    position: relative;
+    top: 15%;
+    left: 37%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+section h1,
+section h2,
+section h3{
+    margin: 0px;
+    padding: 0px;
+}
+.name{
+    width: 100%;
+    height: 240px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: hsl(229, 23%, 23%);
+}
+.victor{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+.victor *{
+    display: inline-block;
+}
+.victor h2,
+.light{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size: 15px;
+}
+.london{
+    font-size: 20px;
+    position: relative;
+    top: 5%;
+}
+.victor h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid  rgb(219, 215, 215);
+    text-align: center;
+    padding-top: 20px;
+}
+.footer h1{
+    font-size: 18px;
+    font-weight: 700;
+}
+
